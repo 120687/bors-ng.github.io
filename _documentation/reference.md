@@ -24,7 +24,7 @@ Note that the keyword (`bors`) may be separated with a space or a colon. That is
 |--------------|----------|-------------|
 | status       | [string] | List of commit statuses that must pass on the merge commit before it is pushed to master.
 | block_labels | [string] | List of PR labels that may not be attached to a PR when it is r+-ed.
-| pr_status    | [string] | List of commit statuses that must pass on the PR commit when it is r+-ed.
+| pr_status    | [string] | List of commit statuses that must pass on the PR commit 
 | timeout_sec  | integer  | Number of seconds from when a merge commit is created to when its statuses must pass.
 | cut_body_after | string | A marker in the PR description that indicates boilerplate that does not belong in the commit message.
 | delete_merged_branches | boolean | If set to true, and if the PR branch is on the same repository that bors-ng itself is on, the branch will be deleted.
